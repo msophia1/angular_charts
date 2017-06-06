@@ -1,0 +1,31 @@
+body {
+    background-color: khaki;
+}
+
+.form-template {
+  text-align: center;
+}
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+canvas{
+    max-height: 800px;
+    border: 2px solid black;
+}
+.btn{
+    background-color: rgba(10,2,25,0.5);
+    color: white;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: black;
+}
