@@ -8,7 +8,6 @@ myApp.controller("mainController", function($scope) {
         
     */
     $scope.update = function(){
-        var txtCoordinates;
         if($scope.coordinates){
             var array = $scope.coordinates.split(',');
             //Labels array to stored to maintain the X-asis of the graph which is currenlt a blank array.
