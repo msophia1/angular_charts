@@ -28,7 +28,7 @@
             });
             </script>
             <br>
-            <textarea id="txtCoordinates"rows="4" cols="50" onkeypress='return event.charCode >= 48 && event.charCode <= 57 || event.charCode == 44' placeholder="Enter integer values separated by comma"></textarea>
+            <textarea id="txtCoordinates"rows="4" cols="50" onkeypress='return event.charCode >= 48 && event.charCode <= 57 || event.charCode == 44' placeholder="Enter integer values separated by comma" ng-model="coordinates"></textarea>
             <br>
             <button class="btn" type="button" id="btnUpdate" ng-click="update()">Generate Graph</button>
         </div>
